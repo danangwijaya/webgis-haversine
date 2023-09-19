@@ -1,0 +1,75 @@
+html {
+    font-family: sans-serif;
+    font-size: 11pt;
+}
+
+.results {
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 3;
+    top: 12px;
+    right: 12px;
+    width: 320px;
+    height: 480px;
+    overflow-y: scroll;
+}
+.navbar {
+    position: absolute;
+    z-index: 1000;
+}
+
+.container{
+    position: absolute;
+    z-index: 3;
+    display: block;
+}
+
+.map{
+    height: 98vh;
+    width: 99vw;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+} 
+#sidebar {
+padding: 1vh;
+position: absolute;
+width: 5.5vh;
+height: 80vh;
+top: 16%;
+left: 1vw;
+z-index: 6;
+text-align: center;
+border-radius: 6px;
+background-color: #043655;
+color: rgb(255, 255, 255);
+transition: all 0.6s cubic-bezier(0.945, 0.02, 0.27, 0.665);
+transform-origin: bottom left;
+}
+
+#sidebar .headersidebar {
+padding: 0px 0px 20px 0px;
+}
+
+#sidebar ul.components {
+padding: 20px 0;
+border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul li a {
+display: block;
+}
+.results {
+background-color: white;
+opacity: 0.8;
+position: absolute;
+z-index: 3;
+top: 12px;
+right: 12px;
+width: 320px;
+height: 480px;
+overflow-y: scroll;
+}
